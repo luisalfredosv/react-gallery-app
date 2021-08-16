@@ -2,7 +2,7 @@ import Cards from "./Cards";
 
 const Container = () => {
 	return (
-		<div className='container border'>
+		<div className='container'>
 			<Cards></Cards>
 		</div>
 	);

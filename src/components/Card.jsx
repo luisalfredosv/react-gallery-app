@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 const Card = ({ img }) => {
 	return (
 		<div
-			className='card'
+			className='card m-2'
 			style={{
-				width: "15rem",
+				width: "18rem",
 			}}
 		>
 			<img className='card-img-top' src={img} alt='imagen.png' />
